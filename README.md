@@ -59,7 +59,7 @@ This should allow you to build a global snapshop like this one:
 Another interesting option is to save a snapshot of the status of a contract every few minutes and then loop through the images in order to create an animation displaying the "flow" of people across the city. In this example, you can see people flocking to the city center and the northwest university campuses at around 8h-9h, going to the beach at around 16h, etc.
 
 <p align="center">
-    <img src="http://giant.gfycat.com/KeyEarnestAlleycat.gif" alt="Results"
+    <img src="Animation.gif" alt="Results"
     width="70%" height="70%" />
 </p>
 
