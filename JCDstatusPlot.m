@@ -18,6 +18,10 @@ load       ./Auxiliary/apiKey
 contract = 'Valence';
 url      = 'https://api.jcdecaux.com/vls/v1/stations';
 rawData  = urlread([url '?contract=' contract '&apiKey=' apiKey ]);
+
+% Parse JSON
+% mathworks.es/matlabcentral/fileexchange/33381-jsonlab
+% --a-toolbox-to-encode-decode-json-files-in-matlab-octave
 stations = cell2mat(loadjson(rawData));
 
 %%  Compute stats
