@@ -100,7 +100,7 @@ text(0.99,1,[contract ' Bike Network'],'FontSize',12,'VerticalAlignment','top')
 
 %  Add subtitles
 text(0.99,0.91,{
-    'Size: available bikes / Color: ocupation'
+    'Size: available bikes / Color: occupation'
     datestr(lastUpdate,'dd/mm/yy HH:MM')
     },'HorizontalAlignment','right','FontSize',6)
 
